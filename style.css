@@ -14,9 +14,6 @@ body{
             margin-bottom: 10px;
         }
         #Banner_section_paragraph {margin-top: 50px;font-size: larger;}
-        section {
-            margin-bottom: 50px;
-        }
         #menu {
             display: flex;
             justify-content: space-between;
@@ -93,6 +90,7 @@ body{
             margin: 0px auto;
             display: flex;
             justify-content: space-evenly;
+            margin-bottom: 30px;
         }
         .Secure_spot_container{
             border: 1px solid black;
@@ -115,5 +113,19 @@ body{
 
     color: #2563eb;
     text-align: left;
+
+}
+
+.Secure_spot_container ul{
+    list-style: none;
+    padding: 0px;
+}
+.Secure_spot_container li::before {
+
+    content: "•";
+
+    color: #2563eb;
+
+    margin-right: 10px;
 
 }
